@@ -1,0 +1,10 @@
+name 'TRF'
+maintainer 'The Authors'
+maintainer_email 'chef@eaglegenomics.com'
+license 'all_rights'
+description 'Installs/Configures TRF'
+long_description 'Installs/Configures TRF'
+version '0.1.0'
+
+depends 'build-essential'
+depends 'magic_shell'
