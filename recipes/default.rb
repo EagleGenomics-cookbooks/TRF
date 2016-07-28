@@ -24,7 +24,7 @@ end
 
 remote_file "#{node['TRF']['dir']}/trf" do
   source node['TRF']['url']
-  mode 0755
+  mode 0o755
   action :create_if_missing
 end
 
