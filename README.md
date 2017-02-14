@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/EagleGenomics-cookbooks/TRF.svg?branch=master)](https://travis-ci.org/EagleGenomics-cookbooks/TRF)
+
 # TRF
 
 Description
@@ -6,16 +8,16 @@ This Cookbook installs TRF:
 
 http://tandem.bu.edu/trf/trf.html
 
-A tandem repeat in DNA is two or more adjacent, approximate copies of a pattern of nucleotides. 
-Tandem Repeats Finder is a program to locate and display tandem repeats in DNA sequences. 
-In order to use the program, the user submits a sequence in FASTA format. There is no need to specify 
-the pattern, the size of the pattern or any other parameter. The output consists of two files: a repeat 
-table file and an alignment file. The repeat table contains information about each repeat, 
-including its location, size, number of copies and nucleotide content. Clicking on the location 
-indices for one of the table entries opens a second web browser that shows an alignment of the 
-copies against a consensus pattern. The program is very fast, analyzing sequences on the order 
-of .5Mb in just a few seconds. Submitted sequences may be of arbitrary length. Repeats with 
-pattern size in the range from 1 to 2000 bases are detected. Sequence information sent to the 
+A tandem repeat in DNA is two or more adjacent, approximate copies of a pattern of nucleotides.
+Tandem Repeats Finder is a program to locate and display tandem repeats in DNA sequences.
+In order to use the program, the user submits a sequence in FASTA format. There is no need to specify
+the pattern, the size of the pattern or any other parameter. The output consists of two files: a repeat
+table file and an alignment file. The repeat table contains information about each repeat,
+including its location, size, number of copies and nucleotide content. Clicking on the location
+indices for one of the table entries opens a second web browser that shows an alignment of the
+copies against a consensus pattern. The program is very fast, analyzing sequences on the order
+of .5Mb in just a few seconds. Submitted sequences may be of arbitrary length. Repeats with
+pattern size in the range from 1 to 2000 bases are detected. Sequence information sent to the
 server is confidential and deleted after program execution.
 
 Requirements
@@ -37,7 +39,7 @@ Simply include the recipe wherever you would like it installed, such as a run li
 ## Testing
 To test the recipe we use chef test kitchen:
 
-kitchen converge default-centos65 
+kitchen converge default-centos65
 
 kitchen login default-centos65
 
@@ -59,7 +61,7 @@ License and Authors
 * Authors:: Nick James  (<chef@eaglegenomics.com>)
 
 Copyright:: 2016, Eagle Genomics Ltd, Apache License, Version 2.0
-    
+
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
